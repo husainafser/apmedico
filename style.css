@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conrainer{
+    display:flex;
+}
+nav {
+    padding-left: 35%;
+    text-align: center;
+    display:flex ;
+    background-color:mediumseagreen;
+    
+}
+nav a {
+    text-decoration: none;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+.head{
+    background-image: url(img2.jpg);
+    color:bisque;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    padding: 20%;
+    text-align: center;
+    height: 500px;
+    background-attachment: fixed;  
+    background-size: cover;
+}   
+.float{
+    text-align: center;
+    
+}
+
+.p1{
+    padding: 10px;
+    margin: 10px ;
+    font-size: 20px;
+}
+.sec2{
+    background-color: azure;
+    padding: 10px;
+}
+.sec2 .about h2{
+    margin-bottom: 20px;
+    color: darkolivegreen;
+}
+.sec2 .about{
+    text-align: center;
+    padding: 50px 300px;
+    word-spacing: 10px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec2 .why h2,.sec3 h2{
+    margin-bottom: 20px;
+    color: darkolivegreen;
+}
+.sec2 .why{
+    text-align: center;
+    padding: 50px 300px;
+    word-spacing: 10px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec3,.sec3 h2{
+    background-color:rgb(252, 241, 241);
+  text-align: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img1{
+    width: 500px;
+}
+.img2{
+    width:500px;
+    height: 362px;
+}
+.sec4{
+    background-color: azure;
+    padding: 10px;
+}
+.sec4 .mission h2{
+    margin-bottom: 20px;
+    color: darkolivegreen;
+}
+.sec4 .mission{
+    text-align: center;
+    padding: 50px 300px;
+    word-spacing: 10px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec4 .vision h2{
+    margin-bottom: 20px;
+    color: darkolivegreen;
+}
+.sec4 .vision{
+    text-align: center;
+    padding: 50px 200px;
+    word-spacing: 10px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    padding: 20px;
+    
+}
+.img1{
+    width: 300px;
+    height: 300px;
+}
+.sec6 h2,.sec5 h2{
+    margin-bottom: 20px;
+    color: darkolivegreen;
+}
+.sec6,.sec5{
+    background-color: azure;
+    text-align: center;
+    padding: 50px 200px;
+    word-spacing: 10px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.poster1{
+    width: 310px;
+    height: 450px;
+    background-color: rgb(127, 145, 95);
+    border: 5px solid rgb(127, 145, 95);
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.poster{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.post{
+    text-align: center;
+      font-weight: 500;
+    justify-content: center;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+}
+.poster2{
+    width: 310px;
+    height: 450px;
+    background-color: rgb(127, 145, 95);
+    border: 5px solid rgb(127, 145, 95);
+    margin: 10px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+}
+.poster3{
+    width: 310px;
+    height: 450px;
+    background-color: rgb(127, 145, 95);
+    border: 5px solid rgb(127, 145, 95);
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color:mediumseagreen;  
+    color: white; 
+    padding: 10px; 
+}
+.footer{
+    background-color:mediumseagreen;    
+    display: flex;
+    padding: 10px;
+    color: white;
+}
+
+.footer .foot1{
+    display: inline;
+    width: 80%;
+    padding: 0px 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.footer .foot1 h3{
+    padding-bottom: 20px;
+}
+.footer .foot2{
+    display: inline;
+    text-align: center;
+    width: 30%;
+    padding: 0px 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .foot2 p a{
+    text-decoration: none;
+    color: white;
+}
+.footer .foot3{
+    display: inline;
+    padding: 0px 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .foot4{
+    text-align: center;
+    display: inline;
+    padding: 0px 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .foot4 h3,.footer .foot2 h3,.footer .foot3 h3{
+    padding-bottom: 20px;
+}
+input{
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button{
+    padding:5px 15px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    border-radius: 5px;
+}
+footer .foot5{
+    text-align: center;
+    display: inline;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
